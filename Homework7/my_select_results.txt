@@ -1,0 +1,194 @@
+1. Знайти 5 студентів із найбільшим середнім балом з усіх предметів.
++----------------+---------+
+|    Field 1     | Field 2 |
++----------------+---------+
+| Patrick Heath  |   7.28  |
+|  Robert Parks  |   7.17  |
+| Paul Wilkerson |   7.14  |
+| Michelle Burns |   7.00  |
+| Wesley Jackson |   6.83  |
++----------------+---------+
+2. Знайти студента із найвищим середнім балом з певного предмета.
++---------+-----------------+---------+
+| Field 1 |     Field 2     | Field 3 |
++---------+-----------------+---------+
+|    8    | Joseph Phillips |  10.00  |
++---------+-----------------+---------+
+3. Знайти середній бал у групах з певного предмета.
++---------+--------------------+---------+
+| Field 1 |      Field 2       | Field 3 |
++---------+--------------------+---------+
+|  C-139  |        Art         |   6.61  |
+|  C-139  |  Computer Science  |   8.08  |
+|  C-139  |  English Language  |   6.22  |
+|  C-139  |  Foreign Language  |   7.28  |
+|  C-139  |     Geography      |   7.47  |
+|  C-139  |      History       |   6.46  |
+|  C-139  |    Mathematics     |   7.33  |
+|  C-139  |       Music        |   8.12  |
+|  C-139  | Physical Education |   4.83  |
+|  C-139  |      Science       |   5.82  |
+|  D-169  |        Art         |   7.20  |
+|  D-169  |  Computer Science  |  10.00  |
+|  D-169  |  English Language  |   6.00  |
+|  D-169  |  Foreign Language  |   6.50  |
+|  D-169  |     Geography      |   7.00  |
+|  D-169  |      History       |   7.60  |
+|  D-169  |    Mathematics     |   5.75  |
+|  D-169  |       Music        |   6.67  |
+|  D-169  | Physical Education |  10.00  |
+|  D-169  |      Science       |  12.00  |
+|  I-138  |        Art         |   4.83  |
+|  I-138  |  Computer Science  |  11.00  |
+|  I-138  |  English Language  |   6.25  |
+|  I-138  |  Foreign Language  |   7.00  |
+|  I-138  |     Geography      |   8.33  |
+|  I-138  |      History       |   5.33  |
+|  I-138  |    Mathematics     |   4.00  |
+|  I-138  |       Music        |   3.00  |
+|  I-138  | Physical Education |   9.67  |
+|  I-138  |      Science       |   8.13  |
+|  K-106  |        Art         |   7.13  |
+|  K-106  |  Computer Science  |   7.14  |
+|  K-106  |  English Language  |   5.25  |
+|  K-106  |  Foreign Language  |   9.00  |
+|  K-106  |     Geography      |   6.80  |
+|  K-106  |      History       |   3.83  |
+|  K-106  |    Mathematics     |   5.43  |
+|  K-106  |       Music        |   5.67  |
+|  K-106  | Physical Education |   7.25  |
+|  K-106  |      Science       |   6.83  |
+|  P-177  |        Art         |   4.71  |
+|  P-177  |  Computer Science  |   8.00  |
+|  P-177  |  English Language  |   5.67  |
+|  P-177  |  Foreign Language  |   6.36  |
+|  P-177  |     Geography      |   6.50  |
+|  P-177  |      History       |   6.25  |
+|  P-177  |    Mathematics     |   7.09  |
+|  P-177  |       Music        |   7.17  |
+|  P-177  | Physical Education |   5.86  |
+|  P-177  |      Science       |   4.80  |
+|  Q-136  |        Art         |   6.88  |
+|  Q-136  |  Computer Science  |   6.67  |
+|  Q-136  |  English Language  |   5.38  |
+|  Q-136  |  Foreign Language  |   6.00  |
+|  Q-136  |     Geography      |   6.09  |
+|  Q-136  |      History       |   6.40  |
+|  Q-136  |    Mathematics     |   8.50  |
+|  Q-136  |       Music        |   4.17  |
+|  Q-136  | Physical Education |   6.13  |
+|  Q-136  |      Science       |   6.60  |
+|  Q-142  |        Art         |   7.80  |
+|  Q-142  |  Computer Science  |   8.75  |
+|  Q-142  |  English Language  |   3.33  |
+|  Q-142  |  Foreign Language  |   5.20  |
+|  Q-142  |     Geography      |   6.60  |
+|  Q-142  |      History       |   7.73  |
+|  Q-142  |    Mathematics     |   7.50  |
+|  Q-142  |       Music        |   5.00  |
+|  Q-142  | Physical Education |   4.63  |
+|  Q-142  |      Science       |   5.63  |
+|  Q-192  |        Art         |   7.67  |
+|  Q-192  |  Computer Science  |   7.78  |
+|  Q-192  |  English Language  |   8.25  |
+|  Q-192  |  Foreign Language  |   6.58  |
+|  Q-192  |     Geography      |   6.25  |
+|  Q-192  |      History       |   6.00  |
+|  Q-192  |    Mathematics     |   6.14  |
+|  Q-192  |       Music        |   9.00  |
+|  Q-192  | Physical Education |   5.25  |
+|  Q-192  |      Science       |   5.57  |
+|  Z-132  |        Art         |   7.67  |
+|  Z-132  |  Computer Science  |   5.00  |
+|  Z-132  |  English Language  |   6.67  |
+|  Z-132  |  Foreign Language  |  10.00  |
+|  Z-132  |     Geography      |   4.17  |
+|  Z-132  |      History       |   5.25  |
+|  Z-132  |    Mathematics     |   6.50  |
+|  Z-132  |       Music        |   4.33  |
+|  Z-132  | Physical Education |   7.25  |
+|  Z-132  |      Science       |   6.50  |
++---------+--------------------+---------+
+4. Знайти середній бал на потоці (по всій таблиці оцінок).
++---------+---------+
+| Field 1 | Field 2 |
++---------+---------+
+|  P-177  |   6.35  |
++---------+---------+
+5. Знайти які курси читає певний викладач.
++--------------------+--------------------+
+|      Field 1       |      Field 2       |
++--------------------+--------------------+
+| Karen Williams Jr. | Physical Education |
+| Karen Williams Jr. |       Music        |
++--------------------+--------------------+
+6. Знайти список студентів у певній групі.
++---------+----------------------+
+| Field 1 |       Field 2        |
++---------+----------------------+
+|  P-177  | Kristopher Rodriguez |
+|  P-177  |     Kevin Scott      |
+|  P-177  |  Miss Shari Knight   |
++---------+----------------------+
+7. Знайти оцінки студентів у окремій групі з певного предмета.
++---------+----------------+---------+---------+
+| Field 1 |    Field 2     | Field 3 | Field 4 |
++---------+----------------+---------+---------+
+|    6    | Nancy Collins  | Science |  Q-142  |
+|    7    | Nancy Collins  | Science |  Q-142  |
+|    11   | Paul Wilkerson | Science |  Q-142  |
+|    5    | Nancy Collins  | Science |  Q-142  |
+|    11   | Paul Wilkerson | Science |  Q-142  |
+|    2    | Nancy Collins  | Science |  Q-142  |
+|    2    | Nancy Collins  | Science |  Q-142  |
+|    1    | Nancy Collins  | Science |  Q-142  |
++---------+----------------+---------+---------+
+8. Знайти середній бал, який ставить певний викладач зі своїх предметів.
++--------------------+------------------+---------+
+|      Field 1       |     Field 2      | Field 3 |
++--------------------+------------------+---------+
+| Matthew Arnold PhD | Computer Science |   7.82  |
+| Matthew Arnold PhD |    Geography     |   6.55  |
++--------------------+------------------+---------+
+9. Знайти список курсів, які відвідує студент.
++----------------+--------------------+
+|    Field 1     |      Field 2       |
++----------------+--------------------+
+| Brian Mitchell |        Art         |
+| Brian Mitchell |  Computer Science  |
+| Brian Mitchell |  English Language  |
+| Brian Mitchell |  Foreign Language  |
+| Brian Mitchell |     Geography      |
+| Brian Mitchell |      History       |
+| Brian Mitchell |    Mathematics     |
+| Brian Mitchell |       Music        |
+| Brian Mitchell | Physical Education |
+| Brian Mitchell |      Science       |
++----------------+--------------------+
+10. Список курсів, які певному студенту читає певний викладач.
++---------+------------------+--------------+
+| Field 1 |     Field 2      |   Field 3    |
++---------+------------------+--------------+
+| Science | Anthony Curry MD | Troy Freeman |
+| Science | Anthony Curry MD | Troy Freeman |
++---------+------------------+--------------+
+11. Середній бал, який певний викладач ставить певному студентові.
++--------------------+----------------------+---------+
+|      Field 1       |       Field 2        | Field 3 |
++--------------------+----------------------+---------+
+| Megan Hamilton DDS | Kristopher Rodriguez |   8.80  |
++--------------------+----------------------+---------+
+12. Оцінки студентів у певній групі з певного предмета на останньому занятті.
++----------------+---------+---------------------+
+|    Field 1     | Field 2 |       Field 3       |
++----------------+---------+---------------------+
+|  Robert Smith  |    3    | 2023-06-04 00:00:00 |
+| Michelle Burns |    10   | 2023-06-04 00:00:00 |
+|  Robert Smith  |    2    | 2023-06-04 00:00:00 |
+| Michael Turner |    3    | 2023-06-04 00:00:00 |
+| Michael Turner |    8    | 2023-06-04 00:00:00 |
+| Michelle Burns |    2    | 2023-06-04 00:00:00 |
+| Patrick Heath  |    5    | 2023-06-04 00:00:00 |
++----------------+---------+---------------------+
+
+Process finished with exit code 0
