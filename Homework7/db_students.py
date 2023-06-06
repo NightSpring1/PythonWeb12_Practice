@@ -48,12 +48,13 @@ class Grade(Base):
     subject = relationship('Subject', back_populates='grades')
 
 
-
-mysql  = 'mysql+pymysql://root:29an99fr@192.168.1.242:3306/students'
+mysql = 'mysql+pymysql://root:29an99fr@192.168.1.242:3306/students'
 postgres = 'postgresql://postgres:29an99fr@192.168.1.242:5432/postgres'
+mssql = 'mssql+pyodbc://sa:29aN99fR@192.168.1.40:1433/students?driver=ODBC+Driver+18+for+SQL+Server'
+sqlite = 'sqlite:///students.db'
 
 engine = create_engine(postgres)
-Base.metadata.create_all(engine)
+# Base.metadata.create_all(engine)
 
 Session = sessionmaker(bind=engine)
 session = Session()
