@@ -1,6 +1,3 @@
-"""
-Contacts model for mongoengine
-"""
 from mongoengine import Document, connect
 from mongoengine.fields import StringField, EmailField, BooleanField
 

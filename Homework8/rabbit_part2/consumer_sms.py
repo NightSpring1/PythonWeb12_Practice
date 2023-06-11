@@ -1,6 +1,3 @@
-"""
-A stub server which takes a task from rabbitMQ queue and simulates notification to a contact.
-"""
 import time
 from model import Contacts
 from broker_rabbitMQ import rabbitMQ_connect
