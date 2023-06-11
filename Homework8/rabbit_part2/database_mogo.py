@@ -1,4 +1,6 @@
-
+"""
+mongoDB connector. Credentials should be specified in config.ini
+"""
 import configparser
 from mongoengine import connect, disconnect_all
 # ----------------------------------------------------Connect-----------------------------------------------------------

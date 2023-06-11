@@ -1,3 +1,7 @@
+"""
+Script that creates a number of fake contacts data and inserts it into mongoDB.
+"""
+
 import faker
 import random
 from database_mogo import mongo_connect, disconnect_all

@@ -1,3 +1,8 @@
+"""
+A simple script which simulates a task creator to notify contacts via email or SMS.
+Creates 2 queues in rabbitMQ depending on which way to notify contact is more preferable.
+"""
+
 from model import Contacts
 from database_mogo import mongo_connect
 from broker_rabbitMQ import rabbitMQ_connect
