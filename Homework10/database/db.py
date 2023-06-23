@@ -3,7 +3,7 @@ from sqlalchemy.orm import sessionmaker
 
 from database.models import Base
 
-postgres = 'postgresql://postgres:567234@195.201.150.230:5433/alexsin_db'
+postgres = ''
 
 
 engine = create_engine(postgres)
