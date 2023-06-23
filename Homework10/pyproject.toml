@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "simpleflask"
+version = "0.1.0"
+description = ""
+authors = ["NightSpring1 <deroy193@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flask = "^2.3.2"
+sqlalchemy = "^2.0.16"
+flask-sqlalchemy = "^3.0.3"
+scrapy = "^2.9.0"
+redis-lru = "^0.1.2"
+flask-login = "^0.6.2"
+waitress = "^2.1.2"
+psycopg2-binary = "^2.9.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

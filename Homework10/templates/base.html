@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quotes to Scrape</title>
+    <link rel="stylesheet" href="/static/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/main.css">
+</head>
+<body>
+<div class="container">
+    <header>
+        <div class="row header-box">
+            <div class="col-md-8">
+                <h1>
+                    <a href="/" style="text-decoration: none">Quotes to Scrape</a>
+                </h1>
+            </div>
+            <div class="col-md-4">
+                <p>
+                    {% if current_user.is_authenticated %}
+                    Hi {{ current_user.login }}!
+                    <a href="/add_quote">(add Quote)</a>
+                    <a href="/add_author">(add Author)</a>
+                    <a href="/add_tag">(add Tag)</a>
+                    <a href="/logout">Logout</a>
+                    {% else %}
+                    <a href="/login">Login</a>
+                    <a href="/register">Register</a>
+                    {% endif %}
+                </p>
+            </div>
+
+        </div>
+    </header>
+    {% block main %} {% endblock %}
+    {% block login %} {% endblock %}
+    {% block register %} {% endblock %}
+    {% block top_ten %} {% endblock %}
+    {% block author %} {% endblock %}
+    {% block add_quote %} {% endblock %}
+    {% block add_author %} {% endblock %}
+    {% block add_tag %} {% endblock %}
+</div>
+<footer class="footer">
+    <div class="container">
+        <p class="text-muted">
+            Quotes by: <a href="https://www.goodreads.com/quotes">GoodReads.com</a>
+        </p>
+        <p class="copyright">
+            Made with <span class='sh-red'>❤</span> by <a href="https://scrapinghub.com">Scrapinghub</a>
+    </div>
+</footer>
+</div>
+</body>
+</html>
